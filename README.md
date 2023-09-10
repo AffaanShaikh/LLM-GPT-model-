@@ -1,4 +1,4 @@
-# LLM-GPT-model
+# LLM-GPT-model-
 This model goes deep into data handling, math, and transformers behind large language models.
 The project encompasses 'pre-training' extensively and several key components:
 
