@@ -1,6 +1,6 @@
 # LLM-GPT-model
 This model goes deep into data handling, math, and transformers behind large language models.
-The project encompasses several key components:
+The project encompasses 'pre-training' extensively and several key components:
 
 1. Data Extraction: I've gathered and prepared the data necessary to train my language model, a crucial step in achieving accurate and relevant responses.
 
@@ -25,3 +25,9 @@ The project encompasses several key components:
                      Unlike more complex models like Transformers, which consider long-range dependencies, Bigram models focus on local context.
                      Bigram models are computationally efficient and can be trained on relatively small datasets. This makes them a popular choice for tasks like text prediction and spell checking.
                      Bigram models find applications in various NLP tasks such as language modeling, text prediction, spell checking, and part-of-speech tagging.
+
+Command Line: After importing all neccessary libraries/modules,
+              enable cuda, the virtual enviournment by 'activate' script (CUDA Toolkit, is a development platform for GPU (graphics processing unit) computing. CUDA provides libraries and tools for programming NVIDIA GPUs for general-purpose computing.)
+              With 'jupyter notebook' opened choose the custom kernel created using 'python -m -ipykernel -install --user --name=cuda --display-name "kernelname"' to ensure the virtual enviournment is within the notebook and is interactable.
+              For data extraction: 'python data-extract.py'
+              Chatbot: 'python chatbot.py -batch_size 32' 32 or whatever size of batch size we want
